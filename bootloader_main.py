@@ -17,6 +17,8 @@ if __name__ == "__main__":
     drone_uuid = Globals.get_param_val('UUID')
     first_boot = Globals.get_param_val('FIRST_BOOT')
 
+    version = "v2.6.2"
+    print("Test Print 1")
     # Production Init
     if first_boot:
         print("This is first boot {}".format(first_boot))
